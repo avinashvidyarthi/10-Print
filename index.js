@@ -47,7 +47,7 @@ function round(n) {
 }
 
 function resizeCanvas() {
-	canvas.width = round(canvasOuterDiv.offsetWidth * 0.95);
+	canvas.width = round(canvasOuterDiv.offsetWidth * 0.9);
 	canvas.height = round(window.innerHeight * 0.75);
 }
 
