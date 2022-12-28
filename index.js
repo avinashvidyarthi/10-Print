@@ -128,6 +128,7 @@ startBtn.onclick = () => {
 		spacingSlider.disabled = true;
 		delaySlider.disabled = true;
         randomSlider.disabled = true;
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 		resizeCanvas();
 		startDrawing();
 	}
