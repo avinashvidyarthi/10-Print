@@ -134,7 +134,7 @@ startBtn.onclick = () => {
 	}
 };
 
-window.addEventListener('resize', resizeCanvas);
+// window.addEventListener('resize', resizeCanvas);
 resizeCanvas();
 setSpacingOutput();
 setDelayOutput();
